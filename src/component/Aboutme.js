@@ -1,12 +1,9 @@
 const Aboutme = () => {
   return (
     <section id="aboutme">
+      <h2>About Me</h2>
       <div className="container aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About Me</h2>
-          </div>
-        </div>
+        <div class="row text-center mb-3"></div>
         <div
           class="row justify-content-center fs-5
                     text-center"
