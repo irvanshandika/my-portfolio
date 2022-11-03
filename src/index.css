@@ -22,7 +22,7 @@ body {
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 1.6em;
+  /* font-size: 1.6em; */
 }
 
 @keyframes typing {
@@ -72,8 +72,8 @@ code {
   width: 300px;
 }
 #socialmedia .App-logo {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
 }
 #contactus {
   background-color: #cbf1f5;

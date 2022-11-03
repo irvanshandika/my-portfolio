@@ -6,7 +6,9 @@ const SocialMedia = () => {
   return (
     <section id="socialmedia">
       <div className="wrapper">
-        <div className="typing-demo">Don't Forget to Follow My Social Media :P</div>
+        <div className="typing-demo">
+          <p>Don't Forget to Follow My Social Media :P</p>
+        </div>
       </div>
       {/* Instagram */}
       <a href="https://www.instagram.com/irvan_shandika/">
