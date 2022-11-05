@@ -6,7 +6,7 @@ class Footer extends React.Component {
     return (
       <div className="footer">
         <p className="text-side">
-          © <span id="current-year"></span> | Created by
+          © | Created by
           <a href="http://irvanshandika.my.id" className="text-black">
             {" "}
             Irvan Shandika{" "}

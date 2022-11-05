@@ -9,21 +9,21 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 function NavigasiBar() {
   return (
     <>
-      <div className="container">
+      <div className="container ">
         <Navbar expand="md" className="mb-3 navbar" fixed="top">
           <Container fluid>
             <Navbar.Brand href="#">Muhammad Irvan Shandika</Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
-            <Navbar.Offcanvas id={`offcanvasNavbar-expand-md`} aria-labelledby={`offcanvasNavbarLabel-expand-md`} placement="end">
+            <Navbar.Toggle aria-controls={"offcanvasNavbar-expand-md"} />
+            <Navbar.Offcanvas id={"offcanvasNavbar-expand-md"} aria-labelledby={"offcanvasNavbarLabel-expand-md"} placement="center">
               <Offcanvas.Header closeButton className="sidebar">
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>Muhammad Irvan Shandika</Offcanvas.Title>
+                <Offcanvas.Title id={"offcanvasNavbarLabel-expand-md"}>Muhammad Irvan Shandika</Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body className="sidebar">
-                <Nav className="justify-content-end  flex-grow-1 pe-3">
+                <Nav className="justify-content-end flex-grow-1 pe-4">
                   <Nav.Link href="#home">Home</Nav.Link>
                   <Nav.Link href="#aboutme">About Me</Nav.Link>
                   <Nav.Link href="#socialmedia">Social Media</Nav.Link>
-                  <Nav.Link href="#contacus">Contact</Nav.Link>
+                  <Nav.Link href="#contactus">Contact</Nav.Link>
                 </Nav>
                 {/* <Form className="d-flex">
                 <Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search" />

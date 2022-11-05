@@ -16,7 +16,9 @@ function TextControls() {
       }).then(() => {
         setLoading(false);
         form.reset();
-        alert("Pesan Terkirim");
+        setTimeout(() => {
+          alert("Pesan Terkirim");
+        }, 1000);
       });
     } catch (error) {
       setLoading(false);
@@ -27,7 +29,7 @@ function TextControls() {
   return (
     <section id="contactus">
       <div className="form-width justify-content-center">
-        <Form onSubmit={handleSubmit} name="messege-to-form">
+        <Form onSubmit={handleSubmit} name="messege-to-form" className="form">
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Nama Lengkap</Form.Label>
             <Form.Control type="text" placeholder="Nama Lengkap" name="nama" />
@@ -41,7 +43,6 @@ function TextControls() {
           {loading ? <Button as="input" type="submit" value="loading ...." /> : <Button as="input" type="submit" value="Submit" />}
         </Form>
       </div>
-
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#e3fdfd"
